@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteCond %{REQUEST_URI} !/assets/
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ ./app/Kernel.php [L,QSA]
+</IfModule>

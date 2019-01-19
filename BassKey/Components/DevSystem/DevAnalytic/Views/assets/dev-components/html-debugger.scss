@@ -1,0 +1,66 @@
+$debuggerHeight: 50px;
+
+body {
+  position: relative;
+}
+
+.bass-key-dev-mode.html-debugger {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: $debuggerHeight;
+
+
+  img.logo {
+    position: relative;
+    top: 6px;
+  }
+
+  .row {
+    margin: 0px;
+  }
+
+  a,
+  a:visited,
+  a:hover {
+    color: #fff;
+  }
+
+  p,
+  a {
+    background: rgba(21, 21, 21, 0.23);
+    padding: 5px 5px 5px 5px;
+    display: inline-block;
+    margin: 10px 0 0 0;
+
+    a {
+      background: none;
+      padding: 0;
+      display: inline;
+      margin: 0;
+    }
+
+  }
+
+  p:hover {
+    background: rgba(21, 21, 21, 0.4);
+    padding: 5px 5px 5px 5px;
+    display: inline-block;
+  }
+  .show-dump {
+
+    .dump {
+      display: none;
+    }
+
+  }
+
+  .show-dump:hover,
+  .show-dump:focus {
+    .dump {
+      display: inline-block;
+    }
+  }
+
+}

@@ -1,0 +1,6 @@
+imports:
+  #include routing for plugins
+  - { resource: '%home_path%/plugins/routing.yml' }
+
+  #include DevSystem routing
+  - { resource: '%home_path%/BassKey/Components/DevSystem/Config/routing.yml' }

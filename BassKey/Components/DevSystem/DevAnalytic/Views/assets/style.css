@@ -1,0 +1,41 @@
+body {
+  position: relative; }
+
+.bass-key-dev-mode.html-debugger {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 50px; }
+  .bass-key-dev-mode.html-debugger img.logo {
+    position: relative;
+    top: 6px; }
+  .bass-key-dev-mode.html-debugger .row {
+    margin: 0px; }
+  .bass-key-dev-mode.html-debugger a,
+  .bass-key-dev-mode.html-debugger a:visited,
+  .bass-key-dev-mode.html-debugger a:hover {
+    color: #fff; }
+  .bass-key-dev-mode.html-debugger p,
+  .bass-key-dev-mode.html-debugger a {
+    background: rgba(21, 21, 21, 0.23);
+    padding: 5px 5px 5px 5px;
+    display: inline-block;
+    margin: 10px 0 0 0; }
+    .bass-key-dev-mode.html-debugger p a,
+    .bass-key-dev-mode.html-debugger a a {
+      background: none;
+      padding: 0;
+      display: inline;
+      margin: 0; }
+  .bass-key-dev-mode.html-debugger p:hover {
+    background: rgba(21, 21, 21, 0.4);
+    padding: 5px 5px 5px 5px;
+    display: inline-block; }
+  .bass-key-dev-mode.html-debugger .show-dump .dump {
+    display: none; }
+  .bass-key-dev-mode.html-debugger .show-dump:hover .dump,
+  .bass-key-dev-mode.html-debugger .show-dump:focus .dump {
+    display: inline-block; }
+
+/*# sourceMappingURL=style.css.map */

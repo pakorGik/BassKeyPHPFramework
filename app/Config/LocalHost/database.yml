@@ -1,0 +1,14 @@
+db:
+    host: "localhost:3306"
+    dbname: "cms"
+    user: "root"
+    password: ""
+
+doctrine:
+    driver: pdo_mysql
+    user: root
+    password: ''
+    dbname: basscms
+    charset: utf8
+    entityFiles:
+        - 'BassKeyCMS\PagesConstructionBundle\Entity'

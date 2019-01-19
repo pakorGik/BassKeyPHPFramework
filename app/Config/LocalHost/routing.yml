@@ -1,0 +1,3 @@
+  home:
+    address: /
+    defaults: { _controller: "DemoBundle:Demo:Init" }

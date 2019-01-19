@@ -1,0 +1,4 @@
+bassKeyDevSystemRouting_materialize_html_debugger:
+  address: /bassKey_DevTool_materialize.css
+  _view: "\BassKey\Components\DevSystem\DevAnalytic\Views\assets\materialize"
+  fileType: css

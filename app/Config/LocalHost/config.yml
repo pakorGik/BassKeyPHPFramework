@@ -1,0 +1,16 @@
+db:
+  imports:
+    - { resource: '%root_dir%/LocalHost/database.yml' }
+
+memcache:
+  imports:
+    - { resource: '%root_dir%/LocalHost/memcache.yml' }
+
+routing:
+  routing:
+    imports:
+      #include general routing
+      - { resource: '%root_dir%/routing.yml' }
+
+      #include domain routing
+      - { resource: '%root_dir%/LocalHost/routing.yml' }

@@ -1,0 +1,3 @@
+BK_PHP_BundleCreator:
+      adress: "BK_PHP_BundleCreatorFromYml"
+      defaults: { _controller: "BassKey\Components\DevSystem\DevBundleCreator:BundleCreator:bundleGeneratorFromYml" }

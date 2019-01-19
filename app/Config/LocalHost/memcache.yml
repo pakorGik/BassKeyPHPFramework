@@ -1,0 +1,7 @@
+local:
+    servers:
+        0:
+            host: "localhost"
+            port: 11211
+            persistent: true
+            weight: 1

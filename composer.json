@@ -1,0 +1,28 @@
+{
+    "name": "BassKey",
+    "authors": [
+        {
+            "name": "pakor"
+        }
+    ],
+    "require": {
+        "php" : ">=7.2",
+        "ext-mbstring": "*",
+        "twig/twig": "~1.0",
+        "doctrine/orm": "*",
+        "doctrine/annotations": "^1.6",
+        "phpunit/phpunit": "^7",
+        "filp/whoops": "*"
+    },
+    "autoload": {
+        "psr-4": {
+          "": "src",
+          "src\\": "src",
+          "BassKey\\": "BassKey",
+          "BassKeyCMS\\": "Plugins\\BassKeyCMS",
+          "BassKeyDynamicData\\": "BassKeyDynamicData",
+          "Doctrine\\": "vendor\\doctrine"
+        },
+        "classmap": [ "app/Kernel.php" ]
+    }
+}

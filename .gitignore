@@ -1,0 +1,6 @@
+/vendor
+
+/plugins/*
+!/plugins/routing.yml
+
+/.idea

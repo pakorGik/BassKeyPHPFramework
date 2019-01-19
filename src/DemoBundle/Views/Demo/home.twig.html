@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>{{ title }}</title>
+        <link rel="stylesheet" href="{{ assets('css/materialize.min.css') }}" />
+    </head>
+    <body>
+        <h1 class="center">Welcome in Demo BassKeyPHP Framework!</h1>
+        <div class="collection">
+            <p>Example list:</p>
+            <ul>
+                {% for student in students %}
+                    <li class="collection-item">{{ student }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </body>
+</html>

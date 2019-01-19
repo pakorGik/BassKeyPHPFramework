@@ -1,0 +1,7 @@
+localhost:
+  domain: "localhost"
+  base-url: "localhost/BassKeyPHPFramework/"
+  config:
+    imports:
+      - { resource: '%root_dir%/LocalHost/config.yml' }
+

@@ -27,9 +27,27 @@ mv -v BassKeyPHPFramework exampleProject
 cd exampleProject
 ```
 
+## Installing composer
+
+Framework use [composer](https://getcomposer.org/) tool.
+After clone project necessary is install it by composer.
+<br/>
+
+If have installed composer tool:
+
+```
+composer install
+```
+
+Or use composer.phar file:
+
+```
+php composer.phar install
+```
+
 ### Server configuration
 
-***app/Kernel.php*** is the initial file where execution begins and executes all the framework processes.<br/>
+***app/Kernel.php*** is the initial file where execution begins and executes all the framework processes.<br />
 It is necessary to create rewrite rules in server, to redirect all paths to file ***app/Kernel.php***
 
 ### Example apache2 server configuration
@@ -54,8 +72,9 @@ How to turn on rewrite engine issue: [stackoverflow.com](https://stackoverflow.c
 ***Example configuration for LocalHost domain.***
 
 Framework BKPHP was created to make managing many domains possible. 
-That is why every configuration depends on the domain.<br/><br/>
-***app/Config/base_config.yml*** is main configuration file. This is where all the other config files will be included.<br />
+That is why every configuration depends on the domain.<br /><br />
+
+***app/Config/base_config.yml*** is main configuration file. This is where all the other config files will be included. <br />
 
 Below is example configuration, for domain ***"localhost"***, and base url ***"localhost/exampleProject/"***.
 
